@@ -308,9 +308,9 @@ gap: 40px;
     border-radius: 20px;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    width: 200px;
+    width: 100%;
   }
   .viewGit {
     background-color: var(--mainColorLight);
@@ -319,9 +319,9 @@ gap: 40px;
     border-radius: 20px;
     padding: 15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: bold;
-    width: 200px;
+    width: 100%;
   }
 
   .viewGit:hover{
@@ -432,7 +432,28 @@ footer{
     .logo {
      width: 20%;
     }
+    .btn-flex{
+      display: block;
+    }
 
+    .hero{
+      display: block;
+      padding-top: 300px;
+    }
+
+    .view {
+     width: 50%;
+      font-size: 15px;
+      margin: 10px 50px;
+      
+    }
+
+    .viewGit{
+      width: 50%;
+      font-size: 15px;
+      margin: auto;
+      margin: 10px 50px;
+    }
     .title {
         font-size: 60px;
     }
@@ -441,7 +462,7 @@ footer{
        }
    
     .card-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
     }
   
 
@@ -516,6 +537,21 @@ nav{
     .logo {
      width: 50%;
     }
+
+    .view {
+   
+      font-size: 15px;
+      margin: auto;
+      
+    }
+
+    .viewGit{
+    
+      font-size: 15px;
+      
+    }
+
+  
 
     .title {
         font-size: 30px;
